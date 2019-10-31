@@ -14,10 +14,13 @@ $("#shoot").click(function() {
     let comChoice = Math.floor(Math.random() * 4);
     if (comChoice === 0) {
         $("#computerChoice").text(r0);
+        comChoice = r0;
     } else if (comChoice === 1) {
         $("computerChoice").text(p1);
+        comChoice = p1;
     } else if (comChoice === 2) {
         $("computerChoice").text(s2);
+        comChoice = s2;
     }
     let userInput = $("#input").val();
     let uInput = userInput.toLowerCase();
