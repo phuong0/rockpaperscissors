@@ -1,9 +1,11 @@
 .row{
-  text-align:center;
-  
+    text-align:center;
 }
 #choices{
-  display:flex;
-  justify-content:space-between;
-  
+    display:flex;
+    justify-content:space-around;
+}
+#scoreBoard{
+    display:flex;
+    justify-content:space-around;
 }
