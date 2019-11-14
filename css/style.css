@@ -7,5 +7,8 @@
 }
 #scoreBoard{
     display:flex;
-    justify-content:space-around;
+    justify-content:center;
+}
+.scores{
+    margin: 20px;
 }
